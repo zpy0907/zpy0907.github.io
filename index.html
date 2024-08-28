@@ -8,19 +8,33 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
+<div class="tabs">
+  <button class="tab" onclick="openTab(event, 'tab1')">Tab 1</button>
+  <button class="tab" onclick="openTab(event, 'tab2')">Tab 2</button>
+  <button class="tab" onclick="openTab(event, 'tab3')">Tab 3</button>
+</div>
+ 
+<div id="tab1" class="tabcontent">
+  <h3>Tab 1</h3>
+  <p>This is tab 1 content.</p>
+</div>
+ 
+<div id="tab2" class="tabcontent">
+  <h3>Tab 2</h3>
+  <p>This is tab 2 content.</p>
+</div>
+ 
+<div id="tab3" class="tabcontent">
+  <h3>Tab 3</h3>
+  <p>This is tab 3 content.</p>
+</div>
+	
   <body>
+	  
     <main>
         
 
     </main>
 	<script src="index.js"></script>
-<div id="tabs">
-    <button class="tab-button" data-tab="tab1">选项卡 1</button>
-    <button class="tab-button" data-tab="tab2">选项卡 2</button>
-    <button class="tab-button" data-tab="tab3">选项卡 3</button>
-    <div class="tab-content" id="tab1">选项卡 1 内容</div>
-    <div class="tab-content" id="tab2">选项卡 2 内容</div>
-    <div class="tab-content" id="tab3">选项卡 3 内容</div>
-</div>
   </body>
 </html>
