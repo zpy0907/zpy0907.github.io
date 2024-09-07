@@ -19,7 +19,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Shape|Shifter|Type|to start|#icon thumbs-up|#countdown 3||');
+      S.UI.simulate('#countdown 5|');
     }
 
     S.Drawing.loop(function () {
